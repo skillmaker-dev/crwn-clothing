@@ -23,7 +23,8 @@ class SignIn extends React.Component
         }
         catch(error)
         {
-            console.error(error);
+            alert('wrong email or password');
+            //console.error(error);
         }
         
     };
@@ -46,7 +47,7 @@ class SignIn extends React.Component
                         <FormInput handleChange={this.handleChange} name="password" type="password" label="Password" value={this.state.password} required/>
                         <div className="buttons">
                         <Button type="submit" >Sign In</Button>
-                        <Button onClick={SignInWithGoogle} isGoogleSignIn >Sign In with Google</Button>
+                        <Button type="button" onClick={SignInWithGoogle} isGoogleSignIn >Sign In with Google</Button>
                         </div>
                     </form>
             </div>
