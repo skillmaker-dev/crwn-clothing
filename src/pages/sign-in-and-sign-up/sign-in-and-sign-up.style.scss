@@ -1,6 +1,15 @@
 .sign-in-and-sign-up {
-  width: 850px;
-  display: flex;
-  justify-content: space-between;
-  margin: 30px auto;
+  width: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 950px) {
+  .sign-in-and-sign-up {
+    grid-template-columns: 1fr 1fr;
+  }
 }
