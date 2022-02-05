@@ -12,6 +12,7 @@ import { setCurrentUser} from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import { createStructuredSelector } from 'reselect';
 import CheckoutPage from './pages/checkout/checkout.component';
+import Contact from './pages/contact-page/contact.component';
 
 class App extends React.Component {
 
@@ -49,7 +50,7 @@ class App extends React.Component {
   {
     return (
       
-      <div>
+      <>
         <Header/>
       <Routes>
         <Route exact path="/" element={<HomePage/>}/>
@@ -57,10 +58,11 @@ class App extends React.Component {
 
         <Route exact path="/shop/*" element={<ShopPage/>} />
           
-        
+        <Route path="/contact" element={<Contact/>} />
         <Route exact path="/signin" element={ this.props.currentUser ? <Navigate replace to="/" /> : <SignInAndSignUp/>} />
       </Routes>
-      </div>
+      <p style={{textAlign: 'center'}}>App Created by Anas Chahid</p>
+      </>
       
     );
 

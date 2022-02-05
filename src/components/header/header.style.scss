@@ -7,9 +7,10 @@
   margin-bottom: 25px;
 
   .options {
-    width: 50%;
+    min-width: 200px;
+
     height: 100%;
-    display: flex;
+
     align-items: center;
     justify-content: flex-end;
 
@@ -17,5 +18,22 @@
       padding: 10px 15px;
       cursor: pointer;
     }
+  }
+}
+
+@media screen and (min-width: 70px) and (max-width: 470px) {
+  .options {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content max-content;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 471px) {
+  .options {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

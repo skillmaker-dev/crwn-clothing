@@ -9,7 +9,30 @@
   }
 
   .preview {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .preview {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
+  .preview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .preview {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .preview {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

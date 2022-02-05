@@ -9,11 +9,33 @@
 
   .items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    gap: 1rem;
 
     & .collection-item {
       margin-bottom: 30px;
     }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
+  .items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .items {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
