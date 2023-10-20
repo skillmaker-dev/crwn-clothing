@@ -158,12 +158,6 @@ const SHOP_DATA = [
     routeName: 'womens',
     items: [
       {
-        id: 23,
-        name: 'Brown Coat',
-        imageUrl: 'https://images.unsplash.com/photo-1604947051230-fc2bc6f6c5c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=727&q=80',
-        price: 85
-      },
-      {
         id: 24,
         name: 'Chanel Shoes',
         imageUrl: 'https://images.unsplash.com/photo-1604001307862-2d953b875079?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=679&q=80',
@@ -176,15 +170,9 @@ const SHOP_DATA = [
         price: 40
       },
       {
-        id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
-      },
-      {
         id: 27,
-        name: 'Grey Vest',
-        imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80',
+        name: 'White Sneakers',
+        imageUrl: 'https://www.campusshoes.com/cdn/shop/products/RAISE_WHT_f1a5a2ec-8a23-4795-a796-0da7455dc57a.jpg?v=1679719389',
         price: 45
       },
       {
@@ -195,8 +183,8 @@ const SHOP_DATA = [
       },
       {
         id: 29,
-        name: 'Black Dress',
-        imageUrl: 'https://images.unsplash.com/photo-1564957779922-6e601eda9548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
+        name: 'Red Dress',
+        imageUrl: 'https://wholesaleclothesturkey.com/women-clothes-wholesale-istanbul%20(1).jpg',
         price: 20
       }
     ]
