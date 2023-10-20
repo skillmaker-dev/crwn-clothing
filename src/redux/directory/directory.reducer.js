@@ -19,7 +19,7 @@ const INITIAL_STATE = {sections : [
     },
     {
       title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      imageUrl: 'https://images.unsplash.com/photo-1525845859779-54d477ff291f?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tZW4lMjBjbG90aGVzfGVufDB8fDB8fHww',
       size: 'large',
       id: 4,
       linkUrl: 'shop/womens'
