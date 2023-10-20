@@ -11,12 +11,6 @@ const SHOP_DATA = [
         price: 25
       },
       {
-        id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
-      },
-      {
         id: 3,
         name: 'Brown Cowboy',
         imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
@@ -30,8 +24,8 @@ const SHOP_DATA = [
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        name: 'Black Hat',
+        imageUrl: 'https://www.fashionbeans.com/wp-content/uploads/2016/03/hatguide-19-topp-2.jpg',
         price: 18
       },
       {
@@ -41,21 +35,9 @@ const SHOP_DATA = [
         price: 14
       },
       {
-        id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
-      },
-      {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+        name: 'Panama Hat',
+        imageUrl: 'https://q8y9x5z7.rocketcdn.me/wp-content/uploads/2020/04/Screenshot-2020-04-28-at-15.41.54.png',
         price: 16
       }
     ]
@@ -134,8 +116,8 @@ const SHOP_DATA = [
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        name: 'Leather Jacket',
+        imageUrl: 'https://hidepark.co.uk/cdn/shop/products/Ladies-black-leather-jacket-Wendy-open.jpg?v=1657040709',
         price: 90
       },
       {
